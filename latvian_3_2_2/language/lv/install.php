@@ -38,24 +38,24 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Installation Panel',
-	'SELECT_LANG'	=> 'Select language',
+	'INSTALL_PANEL'	=> 'Instalācijas panelis',
+	'SELECT_LANG'	=> 'Izvēlēties valodu',
 
-	'STAGE_INSTALL'	=> 'Installing phpBB',
+	'STAGE_INSTALL'	=> 'phpBB tiek instalēts',
 
 	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introduction',
+	'INTRODUCTION_TITLE'	=> 'Ievads',
 	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
 
 	// Support page
-	'SUPPORT_TITLE'		=> 'Support',
+	'SUPPORT_TITLE'		=> 'Atbalsts',
 	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
 
 	// Install page
-	'INSTALL_INTRO'			=> 'Welcome to Installation',
+	'INSTALL_INTRO'			=> 'Laipni lūdzam Instalācijā',
 	'INSTALL_INTRO_BODY'	=> 'With this option, it is possible to install phpBB3 onto your server.</p><p>In order to proceed, you will need your database settings. If you do not know your database settings, please contact your host and ask for them. You will not be able to continue without them. You need:</p>
 
 	<ul>
@@ -68,22 +68,22 @@ $lang = array_merge($lang, array(
 
 	<p><strong>Note:</strong> if you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</p>
 
-	<p>phpBB3 supports the following databases:</p>
+	<p>phpBB3 atbalsta sekojošās datubāzes:</p>
 	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
+		<li>MySQL 3.23 vai jaunāka (ar MySQLi atbalstu)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
-		<li>MS SQL Server 2005 or above (native)</li>
+		<li>MS SQL Server 2000 vai jaunāka (tiešā konekcija vai caur ODBC)</li>
+		<li>MS SQL Server 2005 vai jaunāka (standarta)</li>
 		<li>Oracle</li>
 	</ul>
 
-	<p>Only those databases supported on your server will be displayed.',
+	<p>Tiks attēlotas tikai tās datubāzes, kuru konekcijas serveris atbalsta.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'Gribu doties uz <a href="%1$s">AKP</a>',
 
-	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.',
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB jau ir uzinstalēts.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB vēl nav uzinstalēts.',
 ));
 
 // Requirements translation
